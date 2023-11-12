@@ -1,0 +1,390 @@
+body {
+  background: linear-gradient(117deg, #0FF 0%, #FA00FF 100%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 594px;
+  height: 682px;
+  border-radius: 5px;
+  background: #252525;
+}
+.main_block_bl {
+  width: 555px;
+  height: 658px;
+  border-radius: 5px;
+  background: #1E1E1E;
+}
+.main_block_bl_forb1 {
+  display: flex;
+  justify-content: center;
+}
+.main_block_bl_forb1_b1 {
+  width: 534px;
+  height: 189px;
+  margin-top: 11px;
+  background: #FFF;
+  border-radius: 2px;
+}
+.main_block_bl_forb1_b1_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block_bl_forb1_b1_forp_p {
+  color: #7a7a7a;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.main_block_bl_forb1_b1_fornumber {
+  display: flex;
+  justify-content: center;
+}
+.main_block_bl_forb1_b1_fornumber_number {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  width: 517px;
+  height: 95px;
+  border-radius: 2px;
+  background: #506C46;
+  margin-top: 11px;
+  border: none;
+  font-family: Orbitron;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_block_bl_forb2 {
+  display: flex;
+  justify-content: center;
+}
+.main_block_bl_forb2_b2 {
+  width: 534px;
+  height: 55px;
+  background: #FFF;
+  margin-top: 13px;
+}
+.main_block_bl_forb2_b2_forpanel {
+  display: flex;
+  justify-content: center;
+}
+.main_block_bl_forb2_b2_forpanel_panel {
+  width: 503px;
+  height: 31px;
+  background: #201A1A;
+  margin-top: 12px;
+}
+.main_block_bl_fornumbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+  -moz-column-gap: 77px;
+       column-gap: 77px;
+}
+.main_block_bl_fornumbers_number {
+  width: 269px;
+  height: 350px;
+}
+.main_block_bl_fornumbers_number_row1 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.main_block_bl_fornumbers_number_row1_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row1_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row1_btn3 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row2 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-top: 25px;
+}
+.main_block_bl_fornumbers_number_row2_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row2_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row2_btn3 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row3 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-top: 25px;
+}
+.main_block_bl_fornumbers_number_row3_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row3_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row3_btn3 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row4 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-top: 25px;
+}
+.main_block_bl_fornumbers_number_row4_btn1 {
+  width: 98.059px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_number_row4_btn2 {
+  width: 160px;
+  height: 69px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements {
+  width: 172px;
+  height: 257px;
+}
+.main_block_bl_fornumbers_elements_row1 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.main_block_bl_fornumbers_elements_row1_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row1_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row2 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-top: 25px;
+}
+.main_block_bl_fornumbers_elements_row2_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row2_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row3 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-top: 25px;
+}
+.main_block_bl_fornumbers_elements_row3_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row3_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

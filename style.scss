@@ -1,0 +1,375 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+body {
+    background: linear-gradient(117deg, #0FF 0%, #FA00FF 100%);
+}
+
+.main {
+    @include FlexElement(center,center);
+    height: 100vh; 
+    &_block {
+        @include FlexElement(center,center);
+        width: 594px;
+        height: 682px;   
+        border-radius: 5px;
+        background: #252525;    
+        &_bl {
+            width: 555px;
+            height: 658px;
+            border-radius: 5px;
+            background: #1E1E1E;
+            &_forb1 {
+                @include ForBlocks(center);
+                &_b1 {
+                    width: 534px;
+                    height: 189px;   
+                    margin-top: 11px;
+                    background: #FFF;     
+                    border-radius: 2px;    
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #7a7a7a;
+                            text-align: center;
+                            font-family: Roboto Slab;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 10px;
+                        }
+                    }
+                    &_fornumber {
+                        @include ForBlocks(center);
+                        &_number {
+                            color: rgb(0, 0, 0);
+                            text-align: right;
+                            width: 517px;
+                            height: 95px;
+                            border-radius: 2px;
+                            background: #506C46;
+                            margin-top: 11px;
+                            border: none;
+                            font-family: Orbitron;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+            &_forb2 {
+                @include ForBlocks(center);
+                &_b2 {
+                    width: 534px;
+                    height: 55px;           
+                    background: #FFF;
+                    margin-top: 13px;
+                    &_forpanel {
+                        @include ForBlocks(center);
+                        &_panel {
+                            width: 503px;
+                            height: 31px;      
+                            background: #201A1A;    
+                            margin-top: 12px;
+                        }
+                    }
+                }
+            }
+            &_fornumbers {
+                @include FlexElement(center,center);     
+                margin-top: 22px;   
+                column-gap: 77px;
+                &_number {
+                    width: 269px;
+                    height: 350px;
+                    &_row1 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn3 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    }
+                    &_row2 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        margin-top: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn3 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    }
+                    &_row3 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        margin-top: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn3 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    }
+                    &_row4 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        margin-top: 25px;
+                        &_btn1 {
+                            width: 98.059px;
+                            height: 68.75px;        
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;    
+                        }
+                        &_btn2 {
+                            width: 160px;
+                            height: 69px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;      
+                        }
+                    }
+                }
+                &_elements {
+                    width: 172px;
+                    height: 257px;         
+                    &_row1 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    }  
+                    &_row2 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        margin-top: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    } 
+                    &_row3 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        margin-top: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
