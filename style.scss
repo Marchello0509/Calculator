@@ -269,7 +269,7 @@ body {
                 }
                 &_elements {
                     width: 172px;
-                    height: 257px;         
+                    height: 350px;   
                     &_row1 {
                         @include ForBlocks(center);  
                         column-gap: 25px;
@@ -336,6 +336,39 @@ body {
                         }
                     } 
                     &_row3 {
+                        @include ForBlocks(center);  
+                        column-gap: 25px;
+                        margin-top: 25px;
+                        &_btn1 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                        &_btn2 {
+                            width: 72.882px;
+                            height: 68.75px;     
+                            border-radius: 2px;
+                            background: #a0a0a0;
+                            border: none;     
+                            color: #ffffff;
+                            font-family: Orbitron;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            cursor: pointer;
+                        }
+                    } 
+                    &_row4 {
                         @include ForBlocks(center);  
                         column-gap: 25px;
                         margin-top: 25px;

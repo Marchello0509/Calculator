@@ -282,7 +282,7 @@ body {
 }
 .main_block_bl_fornumbers_elements {
   width: 172px;
-  height: 257px;
+  height: 350px;
 }
 .main_block_bl_fornumbers_elements_row1 {
   display: flex;
@@ -375,6 +375,41 @@ body {
   cursor: pointer;
 }
 .main_block_bl_fornumbers_elements_row3_btn2 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row4 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  margin-top: 25px;
+}
+.main_block_bl_fornumbers_elements_row4_btn1 {
+  width: 72.882px;
+  height: 68.75px;
+  border-radius: 2px;
+  background: #a0a0a0;
+  border: none;
+  color: #ffffff;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.main_block_bl_fornumbers_elements_row4_btn2 {
   width: 72.882px;
   height: 68.75px;
   border-radius: 2px;
